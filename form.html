@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  autocomplete="on" method="get" novalidate>
+        <fieldset>
+            <legend>Enquiry Form</legend>
+       <label for="sname">Student Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="text" id="sname" name="sname" required autofocus> <sup>*</sup><br><br>
+       <label for="gender">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;
+       <input type="radio" id="gender" name="gender" checked>Male
+       <input type="radio" id="gender" name="gender">Female
+       <input type="radio" id="gender" name="gender">Others <br><br>
+       <label for="date">Date Of Birth :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="datetime-local"><br><br>
+       <label for="inst">Admission Class : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+       <input list="ins" id="inst">
+       <datalist id="ins">
+           <option value="PN">PN</option>
+           <option value="LKG">LKG</option>
+           <option value="UKG">UKG</option>
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+       </datalist><br>
+       <br>
+       <label for="fname">Parent's name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="text" id="fname" name="fname" required autofocus> <sup>*</sup><br><br>
+       <label for="pnumber">Phone number :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+       <input type="number" id="pnumber" name="pnumber" required autofocus> <sup>*</sup><br><br>
+       <label for="email">Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="email" id="email" name="email"><br><br>             
+       
+       <label for="addr">Message :</label><br><br>
+       <textarea name="txt" id="addr" cols="40" rows="5"></textarea>      
+      
+
+       <br><br>
+
+       <input type="submit">
+       <input type="reset" value="Cancel">
+
+
+    </fieldset>
+    </form>
+    <!------
+        placeholder
+        value
+        
+        
+        ------->
+</body>
+</html> 
+   

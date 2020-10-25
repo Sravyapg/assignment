@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*---------Header-----------*/
+header{
+    background-color: blue;
+    text-align: center;
+    height: 70px;
+    line-height: 67px;
+}
+nav{
+    background-color: rgb(196, 124, 124);
+    height: 60px;
+}
+nav ul{
+    list-style: none;
+    float: none;
+    overflow: hidden;
+}
+nav ul li{
+
+    float: left;;
+    margin-top: 2px; 
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 14px 16px;
+  }
+  li:hover{
+      background-color: coral;
+      
+  }
+
+
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+
+}
+.Welcome
+{
+padding-top:15px;
+padding-left:2%;
+text-align: left;;
+}
+section{
+    height: 470px;
+    background-color: rgb(216, 231, 231);
+    text-align: justify;
+   
+}
+section ul{
+    list-style: none;
+    margin-left: 10px;
+
+
+}
+section li{
+    display: block;
+    color: cornflowerblue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+aside{
+    background-color: white;
+    width: 80%;
+    height: 470px;
+    float: right;
+    text-align: justify;
+
+
+}
+aside p{
+
+    text-align: left;
+    padding-left: 2%;
+
+}
+footer{
+    text-align: center;
+    color:white;
+
+}
+div{
+    float: left;
+    width: 33.33%;
+    background-color:rgb(8, 8, 48);
+    min-height: 57px;
+}
+img{
+  
+    padding:2%;
+    width:1035px;
+     height:325px;
+}
+a{
+    text-decoration:white;
+
+}
